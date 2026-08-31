@@ -1,0 +1,6 @@
+{
+  "name": "Ultimate Auto Detailing",
+  "description": "Luxury mobile auto detailing studio in Los Angeles, California. Showroom finish, interior restoration, paint correction & doorstep convenience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

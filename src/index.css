@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #08090B;
+    --bg-secondary: #121417;
+    --bg-card: #181B20;
+    --accent-gold: #C9A35A;
+    --accent-gold-light: #E4C882;
+    --accent-silver: #C0C0C0;
+  }
+
+  body {
+    background-color: #08090B;
+    color: #F1F5F9;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom Gold & Silver metallic gradients */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #DFBA73 0%, #C9A35A 50%, #9F7B2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold-silver {
+  background: linear-gradient(90deg, #C9A35A 0%, #FFFFFF 50%, #C0C0C0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, #DFBA73 0%, #C9A35A 60%, #B88E3E 100%);
+}
+
+.border-gold-subtle {
+  border-color: rgba(201, 163, 90, 0.25);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 25px rgba(201, 163, 90, 0.15);
+}
+
+/* Custom scrollbars for dark luxury aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232730;
+  border-radius: 4px;
+  border: 1px solid rgba(201, 163, 90, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A35A;
+}
